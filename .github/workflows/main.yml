@@ -28,4 +28,4 @@ jobs:
           tool: karma
           tests_command: yarn test
           runs: 1
-          output_folder: ./output
+          output_folder: ./react-helmet-tree-a2323ad/output/
