@@ -84,7 +84,7 @@ describe("Helmet", () => {
                 );
 
                 requestIdleCallback(() => {
-                    expect(document.title).to.equal("Main Title");
+                    expect(document.title).to.equal("Main Title flaky");
 
                     done();
                 });
