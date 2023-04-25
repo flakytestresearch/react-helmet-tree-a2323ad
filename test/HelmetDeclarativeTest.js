@@ -56,7 +56,7 @@ describe("Helmet - Declarative API", () => {
                 );
 
                 requestIdleCallback(() => {
-                    expect(document.title).to.equal("Title: Some Great Title");
+                    expect(document.title).to.equal("Title: Some Great Title flaky");
 
                     done();
                 });
